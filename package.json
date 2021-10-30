@@ -6,18 +6,12 @@
   "scripts": {
     "start": "node server.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.12",
     "body-parser": "^1.19.0",
     "jsonwebtoken": "^8.5.1"
-  },
-  "engines": {
-    "node": "12.x"
-  },
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  }
 }
