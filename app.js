@@ -6,6 +6,8 @@ const password = "CZ6fZDIui3au9Fly";
 const mongoUrl = `mongodb+srv://Nimitha:${password}@cluster0.hacxe.mongodb.net/<dbname>?retryWrites=true&w=majority`;
 require("./foods");
 app.use(bodyParser.json());
+const cors = require('cors');
+app.use(cors());
 const Foods = mongoose.model("food");
 
 mongoose.connect(mongoUrl, {
